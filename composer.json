@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "ml/git-synchronizer": "@dev"
+        "ml/git-synchronizer": "~1"
     },
     "minimum-stability": "dev"
 }
