@@ -1,0 +1,20 @@
+{
+    "name": "ml/git-synchronizer-app",
+    "description": "A stub for projects using GitSynchronizer",
+    "keywords": [ "GIT", "GitHub", "deploy", "synchronize" ],
+    "homepage": "http://www.markus-lanthaler.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Markus Lanthaler",
+            "email": "mail@markus-lanthaler.com",
+            "homepage": "http://www.markus-lanthaler.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ml/git-synchronizer": "@dev"
+    },
+    "minimum-stability": "dev"
+}

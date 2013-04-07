@@ -1,0 +1,14 @@
+# If you use Apache 2.2.16 or higher, you can use the FallbackResource directive
+FallbackResource /index.php
+
+
+# Otherwise you need to use mod_rewrite. Just uncomment the following lines
+# <IfModule mod_rewrite.c>
+#     Options -MultiViews
+#
+#     RewriteEngine On
+#     #RewriteBase /path/to/app
+#     RewriteCond %{REQUEST_FILENAME} !-f
+#     RewriteRule ^ index.php [L]
+# </IfModule>
+

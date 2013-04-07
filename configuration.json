@@ -1,0 +1,8 @@
+{
+  "token": "aRandomSecureString",
+  "repositories": {
+    "GitHub url (https)": "path/to/the/repo/",
+    "GitHub url (https)": { "token": "A-repo-specific-token", "path": "path/to/the/repo/" },
+    "https://github.com/lanthaler/GitSynchronizerApp": "/some/path/"
+  }
+}
